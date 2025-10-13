@@ -1,0 +1,17 @@
+{
+    "name": "andra/products-srp-demo",
+    "description": "Cadastro e listagem de produtos",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Andra\\ProductsSrpDemo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Maria-Fernanda-Andrade",
+            "email": "andrademariafernanda175@gmail.com"
+        }
+    ],
+    "require": {}
+}

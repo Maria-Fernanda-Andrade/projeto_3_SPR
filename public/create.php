@@ -37,4 +37,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     echo "<p style='color:orange;'> A requisição não foi enviada via POST.</p>";
 }
 
-echo '<p><a href="index.php">⬅️ Voltar ao formulário</a> | <a href="products.php">📋 Ver produtos</a></p>';
+echo '<p><a href="index.php"> Voltar ao formulário</a> | <a href="products.php"> Ver produtos</a></p>';

@@ -12,7 +12,7 @@ Como Executar
 1. Instale as dependências: `composer install`
 2. 2. Gere o autoload: `composer dump-autoload` 3.
 Inicie o servidor: `php -S localhost:8000 -t public`
-4. Acesse: http://localhost:8000/products.php
+4. Acesse: http://http://localhost/products-srp-demo
 Estrutura de Dados
 Os produtos são armazenados em `storage/products.txt`, cada linha em JSON:
 {"id":1,"name":"Tênis Verde","price":299.90,"description":"Modelo esportivo confortável"}

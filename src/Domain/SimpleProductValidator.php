@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andra\ProductsSrpDemo\Domain;
+namespace App\Domain;
 
-use Andra\ProductsSrpDemo\Contracts\ProductValidator;
+use App\Contracts\ProductValidator;
 
 class SimpleProductValidator implements ProductValidator
 {

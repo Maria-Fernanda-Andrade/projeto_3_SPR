@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Andra\ProductsSrpDemo\Contracts;
+namespace App\Contracts;
 
 interface ProductValidator
 {

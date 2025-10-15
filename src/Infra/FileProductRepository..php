@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andra\ProductsSrpDemo\Infra;
+namespace App\Infra;
 
-use Andra\ProductsSrpDemo\Contracts\ProductRepository;
+use App\Contracts\ProductRepository;
 
 class FileProductRepository implements ProductRepository
 {

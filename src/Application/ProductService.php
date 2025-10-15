@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Andra\ProductsSrpDemo\Application;
+namespace App\Application;
 
-use Andra\ProductsSrpDemo\Contracts\ProductRepository;
-use Andra\ProductsSrpDemo\Contracts\ProductValidator;
+use App\Contracts\ProductRepository;
+use App\Contracts\ProductValidator;
 
 class ProductService
 {
@@ -18,9 +18,7 @@ class ProductService
         $this->validator = $validator;
     }
 
-    /**
-     * Cria um novo produto (valida e salva).
-     */
+
     public function create(array $data): bool
     {
         if (!$this->validator->validate($data)) {
@@ -44,9 +42,7 @@ class ProductService
         return $this->repository->save($product);
     }
 
-    /**
-     * Retorna todos os produtos cadastrados.
-     */
+
     public function list(): array
     {
         return $this->repository->findAll();
